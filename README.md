@@ -1,6 +1,6 @@
 # Interstellar 3D - Inspirado por um Grande Fã
 
-Bem-vindo ao projeto Interstellar 3D, uma página web que foi recriada por um grande fã do épico de ficção científica (eu), Interstellar. Esta página é uma homenagem ao filme e busca recriar a atmosfera e o sentimento de admiração que ele evoca.
+Bem-vindo ao projeto Interstellar 3D, um pequeno projeto web que foi recriado por um grande fã (eu) do épico de ficção científica, Interstellar. Esta página é uma homenagem ao filme e busca recriar a atmosfera e o sentimento de admiração que ele evoca.
 
 ## Sobre o Projeto
 
