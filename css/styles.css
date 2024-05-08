@@ -93,10 +93,38 @@ html {
 	color: #000000;
 }
 
+#linkedin-link:hover{
+    transition: background-color .7s ease-in-out;
+    background: #1f1f1f;
+    color: white;
+}
+
 @keyframes cssAnimation {
 	to {
-		transform: translate(0px, 0px) scale(1.8, 1.8);
+		transform: translate(0px, 0px) scale(1.2, 1.2);
 	}
+}
+
+@media screen and (min-width: 601px) and (max-width: 768px) {
+	#video-container {
+		width: 100%;
+		height: 100%;
+		overflow: hidden;
+	}
+
+	#background-video {
+		width: 100%;
+		height: 100%;
+		object-fit: cover;
+	}
+	.box {
+		width: 120px;
+		height: 180px;
+	}
+    .box span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(270px); 
+    }
+    
 }
 
 @media screen and (max-width: 600px) {
@@ -104,11 +132,7 @@ html {
 		width: 100px;
 		height: 150px;
 	}
-}
-
-@media screen and (min-width: 601px) and (max-width: 768px) {
-	.box {
-		width: 120px;
-		height: 180px;
-	}
+    .box span {
+        transform: rotateY(calc(var(--i) * 45deg)) translateZ(200px); 
+    }
 }

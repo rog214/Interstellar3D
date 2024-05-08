@@ -1,8 +1,8 @@
 var video = document.getElementById("background-video");
+video.volume = 0.25;
+
 document.addEventListener("DOMContentLoaded", function () {
 	var playAudioButton = document.getElementById("play-audio-button");
-
-	video.volume = 0.25;
 
 	playAudioButton.addEventListener("click", function () {
 		video.muted = false;
@@ -11,11 +11,20 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 video.addEventListener("ended", function () {
-	document.body.style.backgroundImage = "url('../assets/img/bg.jpg')";
-	document.body.style.backgroundSize = "cover";
+    document.body.style.backgroundSize = "cover";
 	document.body.style.backgroundPosition = "center";
+	document.body.style.width = "100vw";
+	document.body.style.height = "100vh";
 	document.body.style.backgroundRepeat = "no-repeat";
 	video.parentNode.removeChild(video);
 	document.getElementById("linkedin-link").style.display = "block";
 	document.body.style.zIndex = "999";
+    
+	if (window.innerWidth > 600) {
+        
+        document.body.style.backgroundImage = "url('../assets/img/bg.jpg')";
+    } else {
+        document.body.style.backgroundImage = "url('../assets/img/bgSmall.jpg')";   
+    }
+
 });
