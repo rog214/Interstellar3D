@@ -1,5 +1,5 @@
 var video = document.getElementById("background-video");
-video.volume = 0.25;
+video.volume = 0.23;
 
 document.addEventListener("DOMContentLoaded", function () {
 	var playAudioButton = document.getElementById("play-audio-button");
