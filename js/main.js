@@ -11,6 +11,12 @@ document.addEventListener("DOMContentLoaded", function () {
 });
 
 video.addEventListener("ended", function () {
+    if (window.innerWidth > 600) {
+        
+        document.body.style.backgroundImage = "url('./assets/img/bg.jpg')";
+    } else {
+        document.body.style.backgroundImage = "url('./assets/img/bgSmall.jpg')";   
+    }
     document.body.style.backgroundSize = "cover";
 	document.body.style.backgroundPosition = "center";
 	document.body.style.width = "100vw";
@@ -20,11 +26,6 @@ video.addEventListener("ended", function () {
 	document.getElementById("linkedin-link").style.display = "block";
 	document.body.style.zIndex = "999";
     
-	if (window.innerWidth > 600) {
-        
-        document.body.style.backgroundImage = "url('../assets/img/bg.jpg')";
-    } else {
-        document.body.style.backgroundImage = "url('../assets/img/bgSmall.jpg')";   
-    }
+	
 
 });
