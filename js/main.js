@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", function () {
 video.addEventListener("ended", function () {
     if (window.innerWidth > 600) {
         
-        document.body.style.backgroundImage = "url('./assets/img/bg.jpg')";
+        document.body.style.backgroundImage = "url('../assets/img/bg.jpg')";
     } else {
         document.body.style.backgroundImage = "url('./assets/img/bgSmall.jpg')";   
     }

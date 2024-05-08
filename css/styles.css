@@ -91,6 +91,7 @@ html {
 	border-radius: 5px;
 	text-decoration: none;
 	color: #000000;
+    border: 1px solid black;
 }
 
 #linkedin-link:hover{
