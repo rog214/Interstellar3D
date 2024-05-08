@@ -11,5 +11,5 @@ Como um grande fã de Interstellar, sempre fui inspirado pela beleza visual, pel
 Para experimentar esta homenagem a Interstellar, basta clonar o repositório em seu computador e abrir o arquivo `index.html` em seu navegador preferido.
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-projeto.git
+git clone https://github.com/rog214/Interstellar3D.git
 cd nome-do-projeto
