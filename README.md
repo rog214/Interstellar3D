@@ -14,7 +14,7 @@ Este projeto foi inspirado pela atmosfera única e pela narrativa envolvente de 
 
 Para experimentar esta homenagem a Interstellar, siga estas etapas:
 
-1. Clone o repositório em seu computador:
+1. Clone o repositório em seu computador. OU acesse: https://interstellar3-d.vercel.app/
 2. Abra o arquivo `index.html` em seu navegador preferido.
 
 ## Tecnologias Utilizadas
